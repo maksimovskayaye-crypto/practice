@@ -1,4 +1,4 @@
-package ci.nsu.mobile.main.screen
+package ci.nsu.mobile.main.ui.screen
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.layout.Arrangement
@@ -13,9 +13,8 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ArrowBack
 import androidx.compose.ui.Alignment
 import ci.nsu.mobile.main.viewmodel.AuthViewModel
-import ci.nsu.mobile.main.model.PersonDto
-import ci.nsu.mobile.main.model.RegisterRequest
-import android.util.Patterns.EMAIL_ADDRESS
+import ci.nsu.mobile.main.data.model.PersonDto
+import ci.nsu.mobile.main.data.model.RegisterRequest
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

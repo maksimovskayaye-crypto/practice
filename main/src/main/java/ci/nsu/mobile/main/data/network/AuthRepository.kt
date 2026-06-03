@@ -1,9 +1,10 @@
-package ci.nsu.mobile.main.repository
+package ci.nsu.mobile.main.data.network
 
-import android.util.Log
-import ci.nsu.mobile.main.model.*
-import ci.nsu.mobile.main.remote.ApiService
-import ci.nsu.mobile.main.utils.TokenManager
+import ci.nsu.mobile.main.data.model.GroupDto
+import ci.nsu.mobile.main.data.model.LoginRequest
+import ci.nsu.mobile.main.data.model.RegisterRequest
+import ci.nsu.mobile.main.data.model.UserDto
+import ci.nsu.mobile.main.data.network.TokenManager
 
 class AuthRepository {
 

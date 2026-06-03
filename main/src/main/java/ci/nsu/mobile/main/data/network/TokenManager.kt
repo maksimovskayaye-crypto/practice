@@ -1,4 +1,4 @@
-package ci.nsu.mobile.main.utils
+package ci.nsu.mobile.main.data.network
 
 import android.content.Context
 import android.content.SharedPreferences

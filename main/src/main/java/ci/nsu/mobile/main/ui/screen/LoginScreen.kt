@@ -1,4 +1,4 @@
-package ci.nsu.mobile.main.screen
+package ci.nsu.mobile.main.ui.screen
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.layout.Arrangement

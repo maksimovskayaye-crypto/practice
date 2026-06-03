@@ -1,4 +1,4 @@
-package ci.nsu.mobile.main.screen
+package ci.nsu.mobile.main.ui.screen
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.layout.Arrangement
@@ -9,9 +9,8 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.graphics.Color
-import ci.nsu.mobile.main.MainActivity
 import ci.nsu.mobile.main.viewmodel.AuthViewModel
-import ci.nsu.mobile.main.model.UserDto
+import ci.nsu.mobile.main.data.model.UserDto
 
 @Composable
 fun MainScreen(

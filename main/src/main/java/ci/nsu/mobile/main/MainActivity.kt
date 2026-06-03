@@ -10,12 +10,12 @@ import androidx.navigation.compose.rememberNavController
 import androidx.compose.runtime.remember
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
-import ci.nsu.mobile.main.repository.AuthRepository
-import ci.nsu.mobile.main.screen.LoginScreen
-import ci.nsu.mobile.main.screen.MainScreen
-import ci.nsu.mobile.main.screen.RegisterScreen
+import ci.nsu.mobile.main.data.network.AuthRepository
+import ci.nsu.mobile.main.ui.screen.LoginScreen
+import ci.nsu.mobile.main.ui.screen.MainScreen
+import ci.nsu.mobile.main.ui.screen.RegisterScreen
 import ci.nsu.mobile.main.ui.theme.PracticeTheme
-import ci.nsu.mobile.main.utils.TokenManager
+import ci.nsu.mobile.main.data.network.TokenManager
 import ci.nsu.mobile.main.viewmodel.AuthViewModel
 
 class MainActivity : ComponentActivity() {

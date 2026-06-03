@@ -1,6 +1,5 @@
-package ci.nsu.mobile.main.remote
+package ci.nsu.mobile.main.data.network
 
-import ci.nsu.mobile.main.model.*
 import io.ktor.client.call.body
 import io.ktor.client.request.*
 import io.ktor.client.statement.bodyAsText
@@ -8,6 +7,11 @@ import io.ktor.http.ContentType
 import io.ktor.http.contentType
 import io.ktor.http.isSuccess
 import android.util.Log
+import ci.nsu.mobile.main.data.model.AuthResponse
+import ci.nsu.mobile.main.data.model.GroupDto
+import ci.nsu.mobile.main.data.model.LoginRequest
+import ci.nsu.mobile.main.data.model.RegisterRequest
+import ci.nsu.mobile.main.data.model.UserDto
 
 class ApiService {
     private val client = NetworkClient.client

@@ -1,4 +1,4 @@
-package ci.nsu.mobile.main.remote
+package ci.nsu.mobile.main.data.network
 
 import io.ktor.client.HttpClient
 import io.ktor.client.plugins.contentnegotiation.ContentNegotiation
@@ -9,7 +9,7 @@ import io.ktor.http.ContentType
 import io.ktor.http.contentType
 import io.ktor.serialization.kotlinx.json.json
 import kotlinx.serialization.json.Json
-import ci.nsu.mobile.main.utils.TokenManager
+import ci.nsu.mobile.main.data.network.TokenManager
 
 
 object NetworkClient {
